@@ -1,0 +1,31 @@
+div#add-episode-content,div#add-episode-no-season-alert{
+    display: none;
+}
+
+div#search-result{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid none solid none;
+}
+
+div#search-result-series-details{
+    border-radius: 10px;
+    background-color: #FFE088;
+    margin-left: 20px;
+    padding: 16px;
+}
+
+div#search-result-series-details p:first-child{
+    margin-top: 0%;
+}
+
+p#search-result-series-name{
+    font-family: Montserrat-Semibold;
+    font-size: 28px;
+}

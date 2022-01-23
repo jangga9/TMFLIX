@@ -1,0 +1,134 @@
+.genre_box{
+	width:1200px;
+	height:450px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 25px;
+	color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background: #00C9FF; 
+	background: -webkit-linear-gradient(to right, rgba(20, 20, 20, 0.9), #cf6627);
+	background: -webkit-gradient(linear, left top, right top, from(rgba(20, 20, 20, 0.9)), to(#cf6627));
+	background: -webkit-linear-gradient(left, rgba(20, 20, 20, 0.9), #cf6627);
+	background: linear-gradient(to right, rgba(20, 20, 20, 0.9), #cf6627); 
+	-webkit-box-shadow: 0 0 40px rgba(0,0,0,0  background: -o-linear-gradient(left, #92FE9D, #cf6627);.3); 
+	
+}
+.float-container {
+    border: 3px solid #fff;
+	padding: 100px;
+	margin-left: 50px;
+	display: flex;
+
+}
+
+.float-child {
+    float: left;
+}  
+
+
+.card_right {
+	width: 90%;
+}
+
+.card_datails {
+	width: 90%;
+	padding: 100px;
+	margin-top: -25px;
+}
+.card_datails  h1 {
+	font-size: 50px;
+}
+
+
+.card_cat {
+	width: 50%;
+	padding:50px;
+	margin-left: -50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.rate {
+	color: fff;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 9px;
+	margin-left:100px;
+	background: #cf6627;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.1);
+	        box-shadow: 0 0 50px rgba(0,0,0,0.1);
+	-webkit-transition: 300ms ease-in-out;
+	margin-left: 0px;
+
+}
+
+.genre {
+	margin-right:150px;
+	font-weight: bold;
+	color: fff;
+	padding: 10px;
+}
+.cast {
+	margin-right: 100px;
+	font-weight: bold;
+	color: fff;
+	padding: 10px;
+}
+
+
+.desc {
+	font-weight: 100;
+	line-height: 27px;
+	width: 130%;
+	padding: 10px;
+	margin-left: -10px;
+
+}
+.slide-pic{
+	height: 450px;
+	position:relative;
+	
+}
+.slide-pic img{
+	width:91%;
+	height: 86.3%;
+	object-fit: cover;
+	box-sizing: border-box;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.watch{
+	position: absolute;
+	left:55%;
+	top:43.3%;
+	transform: translate(-50%,-50%);
+	width:91.8%;
+	height: 87%;
+	background-color: rgba(20, 20, 20, 0.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.watch{
+	visibility: hidden;
+}
+.slide-pic:hover .watch{
+	visibility: visible;
+	animation:fade 0.5s;
+}
+
+
+
+
